@@ -39,7 +39,7 @@ body{
     justify-content: space-between;
     flex-direction: column;
     background-color: white;
-    width: 80%;
+    width: 90%;
     padding: 1.5rem 0;
     border: 1px solid lightgray;
 }
@@ -49,7 +49,7 @@ body{
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     min-height: 24rem;
 }
 
@@ -68,8 +68,33 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 6rem;
+    width: 5rem;
     border-radius: 50%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.ig-login{
+    margin: 8px;
+    padding: 6px;
+    background-color: rgb(95, 149, 237);
+    border-radius: 4px;
+    color: white;
+}
+.ig-logout{
+    padding: 0px;
+    padding-top: 6px;
+    color: rgb(95, 149, 237);
+    font-size: 12px;
+    font-weight: bold;
+}
+.ig-not-account{
+    padding: 0;
+    margin: 0;
+    color: rgb(156, 156, 156);
+}
+.blue-link{
+    color: rgb(95, 149, 237);
+    font-size: 12px;
+    font-weight: bold;
 }
