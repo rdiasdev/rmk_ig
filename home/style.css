@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+}
+
+.ig-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.ig-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.ig-mobile img{
+    height: 35rem;
+}
+
+.ig-boxes-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    width: 80%;
+    padding: 1.5rem 0;
+    border: 1px solid lightgray;
+}
+
+.ig-continuous{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    min-height: 10rem;
+}
