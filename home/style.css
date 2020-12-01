@@ -50,5 +50,26 @@ body{
     justify-content: space-between;
     flex-direction: column;
     width: 50%;
-    min-height: 10rem;
+    min-height: 24rem;
+}
+
+.ig-logo img{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+}
+
+.ig-profile img{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
